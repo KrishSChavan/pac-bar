@@ -25,7 +25,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 	var BlinkyDownFrames: [SKTexture]!
 	var bHorizontalMove: Bool = true
 	var bVerticalMove: Bool = true
-	var blinkySpeed: CGFloat = 1
+	var blinkySpeed: CGFloat = 4
 	var barIsWhite: Bool = false
 	var level: Int = 0
 	var tHold1: Bool = false
